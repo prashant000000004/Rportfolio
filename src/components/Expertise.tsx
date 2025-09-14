@@ -36,7 +36,7 @@ const labelsfourth = [
     "MVVM Architecture",
     "Clean Architecture",
     "Dependency Injection",
-    "State Managment in Flutter(Provider, Bloc, setState)",
+    "State Management in Flutter(Provider, Bloc, setState)",
     "REST APIs",
     "CI/CD Pipelines",
     "Unit Testing",
