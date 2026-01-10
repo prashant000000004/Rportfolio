@@ -4,6 +4,7 @@ import mock07 from '../assets/images/mock07.jpg';
 import mock08 from '../assets/images/mock08.jpg';
 import mock09 from '../assets/images/mock09.jpg';
 import mock10 from '../assets/images/mock10.jpg';
+import mock11 from '../assets/images/mock11.webp';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -11,6 +12,11 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><h2>CropKart</h2></a>
+                <p>CropKart is a Flutter-based mobile application that bridges the gap between farmers and businesses, enabling direct crop sales without intermediaries.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><h2>Chatterbox</h2></a>
