@@ -5,6 +5,11 @@ import mock08 from '../assets/images/mock08.jpg';
 import mock09 from '../assets/images/mock09.jpg';
 import mock10 from '../assets/images/mock10.jpg';
 import mock11 from '../assets/images/mock11.webp';
+import mock12 from '../assets/images/mock12.webp';
+import mock13 from '../assets/images/mock13.webp';
+import mock14 from '../assets/images/mock14.avif';
+import mock15 from '../assets/images/mock15.webp';
+
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -13,15 +18,15 @@ function Project() {
         <h1>Personal Projects</h1>        <div className="projects-grid">
              {/* FIXORA */}
              <div className="project">
-                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><h2>Chatterbox</h2></a>
-                <p>Developed a real-time messaging app (Chatterbox) using Java, XML, and Firebase with seamless chat functionality and cloud integration.</p>
+                <a href="https://github.com/prashant000000004/Fixora" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/Fixora" target="_blank" rel="noreferrer"><h2>Fixora</h2></a>
+                <p>Built a full-stack home services platform (Fixora) with Flutter and Java REST APIs, streamlining service booking, provider workflows, and scalable backend operations.</p>
             </div>
             //lift Tracker
              <div className="project">
-                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><h2>Chatterbox</h2></a>
-                <p>Developed a real-time messaging app (Chatterbox) using Java, XML, and Firebase with seamless chat functionality and cloud integration.</p>
+                <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><h2>lift_track</h2></a>
+                <p>Developed a fitness tracking app (Lift Track) using Java and XML, enabling users to log workouts, monitor progress, and maintain consistent gym performance.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -47,6 +52,16 @@ function Project() {
                 <a href="https://github.com/prashant000000004/ExpenseTracker" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/ExpenseTracker" target="_blank" rel="noreferrer"><h2>E-Manager</h2></a>
                 <p>Developed E-Manager, a Java & XML-based money management app with local storage and interactive pie chart visualizations for clear expense tracking.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/prashant000000004/medical_x_ray_diagnostic" target="_blank" rel="noreferrer"><img src={mock15} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/medical_x_ray_diagnostic" target="_blank" rel="noreferrer"><h2>medical_x_ray_diagnostic</h2></a>
+                <p>Developed a multimodal medical imaging pipeline combining BLIP vision-language modeling, LoRA fine-tuning, and FAISS-based RAG to generate structured chest X-ray radiology reports with confidence scoring and similar-case retrieval.</p>
+            </div>
+             <div className="project">
+                <a href="https://github.com/prashant000000004/e-commerce-ai-agent" target="_blank" rel="noreferrer"><img src={mock13} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/e-commerce-ai-agent" target="_blank" rel="noreferrer"><h2>e-commerce-ai-agent</h2></a>
+                <p>Developed an autonomous multi-agent e-commerce operations platform leveraging LangGraph orchestration, Zephyr-7B, Prophet forecasting, Isolation Forest anomaly detection, and MLflow tracking for real-time support, inventory intelligence, and KPI analytics.</p>
             </div>
             {/* <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
