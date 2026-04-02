@@ -21,7 +21,7 @@ function Project() {
                 <a href="https://github.com/prashant000000004/Fixora" target="_blank" rel="noreferrer"><h2>Fixora</h2></a>
                 <p>Built a full-stack home services platform (Fixora) with Flutter and Java REST APIs, streamlining service booking, provider workflows, and scalable backend operations.</p>
             </div>
-            //lift Tracker
+           
              <div className="project">
                 <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><h2>lift_track</h2></a>
