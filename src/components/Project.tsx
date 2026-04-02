@@ -25,7 +25,7 @@ function Project() {
              <div className="project">
                 <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/lift_track" target="_blank" rel="noreferrer"><h2>lift_track</h2></a>
-                <p>Developed a fitness tracking app (Lift Track) using Java and XML, enabling users to log workouts, monitor progress, and maintain consistent gym performance.</p>
+                <p>Developed a fitness tracking app (Lift Track) using Flutter, enabling users to log workouts, monitor progress, and maintain consistent gym performance.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
