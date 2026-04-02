@@ -10,8 +10,19 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
-        <div className="projects-grid">
+        <h1>Personal Projects</h1>        <div className="projects-grid">
+             {/* FIXORA */}
+             <div className="project">
+                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><h2>Chatterbox</h2></a>
+                <p>Developed a real-time messaging app (Chatterbox) using Java, XML, and Firebase with seamless chat functionality and cloud integration.</p>
+            </div>
+            //lift Tracker
+             <div className="project">
+                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/prashant000000004/chatterBox" target="_blank" rel="noreferrer"><h2>Chatterbox</h2></a>
+                <p>Developed a real-time messaging app (Chatterbox) using Java, XML, and Firebase with seamless chat functionality and cloud integration.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/cropKart" target="_blank" rel="noreferrer"><h2>CropKart</h2></a>
