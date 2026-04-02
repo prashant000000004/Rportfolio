@@ -16,7 +16,6 @@ function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>        <div className="projects-grid">
-             {/* FIXORA */}
              <div className="project">
                 <a href="https://github.com/prashant000000004/Fixora" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/prashant000000004/Fixora" target="_blank" rel="noreferrer"><h2>Fixora</h2></a>
